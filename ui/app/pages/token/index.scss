@@ -57,7 +57,7 @@
         }
 
         &:hover {
-          background: $Black-900;
+          background: $Grey-000;
         }
 
         &--selected {
@@ -126,13 +126,13 @@
       &__right-primary-label {
         @include H5;
 
-        color: $Black-500;
+        color: $Grey-500;
       }
 
       &__right-secondary-label {
         @include H5;
 
-        color: $Black-500;
+        color: $Grey-500;
         opacity: 0.5;
       }
     }
@@ -142,7 +142,7 @@
     @include H4;
 
     padding: 16px;
-    color: $Black-500;
+    color: $Grey-500;
     min-height: 300px;
   }
 }
